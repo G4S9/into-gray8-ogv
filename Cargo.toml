@@ -1,0 +1,9 @@
+[package]
+name = "into-gray8-ogg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.83"
+clap = { version="4.5.4", features=["derive"] }
+gstreamer = "0.22.4"
